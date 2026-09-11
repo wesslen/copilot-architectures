@@ -1,0 +1,77 @@
+rule_id,description,application_id,reason
+R1,application_id must be unique,APP-000249,application_id appears more than once in the source file
+R1,application_id must be unique,APP-000331,application_id appears more than once in the source file
+R1,application_id must be unique,APP-000641,application_id appears more than once in the source file
+R2,income must not be null or missing,APP-000003,income is blank/null
+R2,income must not be null or missing,APP-000005,income is blank/null
+R2,income must not be null or missing,APP-000014,income is blank/null
+R2,income must not be null or missing,APP-000032,income is blank/null
+R2,income must not be null or missing,APP-000061,income is blank/null
+R2,income must not be null or missing,APP-000178,income is blank/null
+R2,income must not be null or missing,APP-000285,income is blank/null
+R2,income must not be null or missing,APP-000314,income is blank/null
+R2,income must not be null or missing,APP-000447,income is blank/null
+R2,income must not be null or missing,APP-000519,income is blank/null
+R2,income must not be null or missing,APP-000638,income is blank/null
+R2,income must not be null or missing,APP-000701,income is blank/null
+R2,income must not be null or missing,APP-000711,income is blank/null
+R2,income must not be null or missing,APP-000712,income is blank/null
+R2,income must not be null or missing,APP-000743,income is blank/null
+R2,income must not be null or missing,APP-000766,income is blank/null
+R2,income must not be null or missing,APP-000821,income is blank/null
+R2,income must not be null or missing,APP-000895,income is blank/null
+R2,income must not be null or missing,APP-000930,income is blank/null
+R2,income must not be null or missing,APP-000969,income is blank/null
+R3,income must be greater than 0,APP-000547,income is less than or equal to 0
+R3,income must be greater than 0,APP-000954,income is less than or equal to 0
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000004,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000028,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000030,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000077,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000088,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000094,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000110,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000124,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000157,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000179,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000254,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000265,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000303,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000327,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000340,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000346,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000352,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000365,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000381,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000392,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000465,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000469,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000484,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000491,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000552,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000561,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000569,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000576,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000578,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000590,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000614,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000621,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000628,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000654,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000657,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000719,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000771,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000777,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000782,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000788,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000908,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000912,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000939,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000955,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000957,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000973,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000974,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000978,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000986,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R4,application_date must be stored in ISO 8601 (YYYY-MM-DD) format,APP-000988,application_date is formatted MM/DD/YYYY instead of YYYY-MM-DD
+R5,application_date must fall between 2015-01-01 and 2026-09-11 inclusive,APP-000165,application_date falls outside 2015-01-01..2026-09-11

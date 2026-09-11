@@ -1,0 +1,20 @@
+# Run folders are generated at execution time -- keep the directory, not the contents.
+runs/*
+!runs/.gitkeep
+
+# Scored results are experiment output, not source.
+results/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+.idea/
+*.swp
